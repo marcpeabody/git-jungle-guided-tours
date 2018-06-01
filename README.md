@@ -248,8 +248,10 @@ Note that it gives you the commit SHA the branch ref was pointed to when you del
 Show that the reflog for the branch is also now gone. Sad.
 
 I forgot to mention during the talk that a great way to record the branch ref SHA is to do this before you delete the branch:
+```
 git checkout branch-to-delete
 git checkout -
+```
 
 Every basic checkout command typically moves just the HEAD pointer to a new branch ref (or directly to a commit SHA when detached). Every time HEAD moves it makes another entry in HEAD's reflog. This trick makes it so you will have the branch-to-delete position in a recent step of your HEAD reflog!
 
