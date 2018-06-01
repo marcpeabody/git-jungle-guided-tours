@@ -1,5 +1,5 @@
 # Git Jungle Guided Tours Notes
-This repo provides the slides, environment, and setup information from the Git Jungle Guided Tours talk given at Stir Trek 2018.
+This repo provides the slides, environment, and setup information from the [Git Jungle Guided Tours talk (video here)](https://www.youtube.com/watch?v=M0lxvBFMFwg) given at Stir Trek 2018.
 
 If you have any questions, please feel free to add it to [Issues](https://github.com/marcpeabody/git-jungle-guided-tours/issues).
 
